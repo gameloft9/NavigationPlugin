@@ -18,8 +18,7 @@ The plugin creates the object navigator.HUBUNavigate with the method startNaviga
 
 A full example could be:
 
-<script type="text/javascript" charset="utf-8">      
-    //导航
+
     function navigate() {  
            var longtOrig = 114.324775;
            var latOrig = 30.580747;
@@ -28,7 +27,6 @@ A full example could be:
            
            navigator.HUBUNavigate.startNavigating(longtOrig,latOrig,longtDes,latDes);
              }    
-    </script>  
 
 Thanks on Github
 
