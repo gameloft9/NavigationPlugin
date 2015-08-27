@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>  
+<head>   
+  <title>Notification Example</title> 
+  <script type="text/javascript" charset="utf-8" src="cordova.js"></script>    
+  <script type="text/javascript" charset="utf-8">      
+   document.addEventListener("deviceready", onDeviceReady, false);     
+   function onDeviceReady() {        
+   	 // Empty    
+  	}    
+    function showAlert() {       
+     navigator.notification.alert('You are the winner!', 'Game Over', 'Done');
+     }    
+    //    µ¼º½
+    function navigate() {  
+           var longtOrig = 114.324775;
+           var latOrig = 30.580747;
+           var longtDes = 114.390421;
+           var latDes = 30.501860;
+           
+           navigator.HUBUNavigate.startNavigating(longtOrig,latOrig,longtDes,latDes);
+             }    
+	//	     Ìø×ª
+    function intent() { 
+             navigator.intent.demo(1);    
+             		}    
+
+    </script>  
+    </head>  
+    <body>     
+    <p><a href="#" onclick="navigate(); return false;">navigate</a></p>  
+    <p><a href="#" onclick="intent(); return false;">html goto android activity</a></p>  
+    </body>
+    </html>
