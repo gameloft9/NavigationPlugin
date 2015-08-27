@@ -8,9 +8,9 @@ Android
 
 Note: The plugin is based on BaiDu LBS,which means it uses BaiDu's URI service to start navigation with BaiDu map client.You have to register BaiDu's relevant service(Android SDK) to get the key so that you can use its URI service.
 You may find useful information in this url:http://developer.baidu.com/map/index.php?title=%E9%A6%96%E9%A1%B5
-  Once you get the key,then you can replace the key in AndroidManifest.xml，like this:
-    "<meta-data android:name="com.baidu.lbsapi.API_KEY"
-		    android:value="your key" />"
+  Once you get the key,then you can replace the key in AndroidManifest.xml's meta-data tag，like this:
+    android:name="com.baidu.lbsapi.API_KEY"
+    android:value="your key" 
 
 Using the plugin
 
